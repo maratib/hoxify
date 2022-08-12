@@ -1,5 +1,5 @@
 server:
-    port: 9090
+    port: 8081
 logging:
     file: 
         name: logs/app.log
@@ -9,8 +9,7 @@ logging:
         "[com.mak]": DEBUG
 
 spring:
-    application:
-        name: Hoxify
     main: 
         banner-mode: off
----
+        lazy-initialization: true
+---                    

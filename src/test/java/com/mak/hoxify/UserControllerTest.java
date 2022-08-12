@@ -1,4 +1,4 @@
-package com.mak.hoxify.user;
+package com.mak.hoxify;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -10,6 +10,8 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.ActiveProfiles;
+
+import com.mak.hoxify.user.User;
 
 // Integration testing
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)

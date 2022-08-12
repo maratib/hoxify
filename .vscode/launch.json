@@ -6,11 +6,12 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch HoxifyApplication",
+            "name": "Launch Hoxify",
             "request": "launch",
             "mainClass": "com.mak.hoxify.HoxifyApplication",
             "projectName": "hoxify",
-            "console": "internalConsole"
+            "console": "internalConsole",
+            "args": "--spring.profiles.active=dev"
         }
     ]
 }
