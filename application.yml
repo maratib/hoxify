@@ -1,0 +1,15 @@
+server:
+    port: 8081
+
+spring:
+    main:
+        banner-mode: off
+    jpa:
+        open-in-view: false
+        
+logging:
+    file: 
+        name: logs/app.log
+    level:
+        root: warn
+
